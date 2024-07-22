@@ -31,8 +31,10 @@
     }
     .score{
         background: yellow;
-        padding: 10px ,20px;
-        border-radius: 20px;
+        height: 30px;
+        width: auto;
+        padding: 20px ,40px;
+        border-radius: 10px;
     }
     .snake{
         background: #219d00;
@@ -59,7 +61,7 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="score">Score <span>0</span></h2>
+        <h2 class="score">Score <span id="score">0</span></h2>
         <div class="game-board"></div>
     </div>
     <script src="gameScript.js"></script>
